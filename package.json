@@ -1,0 +1,50 @@
+{
+  "name": "@cloudqueen/3d-map-component",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Reusable React map component with 3D terrain, flight paths, airspaces, and wind visualization",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.3.0"
+  },
+  "keywords": [
+    "react",
+    "map",
+    "maplibre",
+    "3d",
+    "terrain",
+    "flight-path",
+    "airspace",
+    "wind",
+    "visualization"
+  ],
+  "author": "CloudQueen",
+  "license": "MIT"
+}
