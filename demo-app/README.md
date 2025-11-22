@@ -20,6 +20,8 @@ npm run preview
 
 Die App öffnet sich automatisch im Browser unter http://localhost:3000
 
+**💡 Hinweis:** Die Demo-App importiert die Komponente direkt aus den Source-Dateien (`../src`), daher ist kein Build der Hauptkomponente erforderlich. Vite resolved den Import automatisch.
+
 ## 📱 Beispiele
 
 ### 1. Gleitschirmflug 🪂
