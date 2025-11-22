@@ -24,7 +24,6 @@
     "maplibre-gl": "^4.7.1"
   },
   "devDependencies": {
-    "@types/cesium": "^1.121.0",
     "@types/geojson": "^7946.0.14",
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
